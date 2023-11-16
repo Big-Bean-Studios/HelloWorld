@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://ixkb7p66gcds"]
+
+[ext_resource type="Script" path="res://node_2d.gd" id="1_321cl"]
+[ext_resource type="Script" path="res://HelloWorld-Ferrao.gd" id="1_hnkim"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_321cl")
+
+[node name="HelloWorld-Ferrao" type="Node2D" parent="."]
+script = ExtResource("1_hnkim")
+
+[node name="HelloWorld-Henrique" type="Node2D" parent="."]
